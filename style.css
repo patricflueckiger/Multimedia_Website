@@ -53,5 +53,7 @@
   margin: auto;
   float: right;
   width: 25%;
-  padding: 10px;
+
+#liveStream{
+margin-left:70px;
 }
