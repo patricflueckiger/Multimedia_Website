@@ -41,3 +41,17 @@
   margin: auto;
   padding-bottom: 2vw;
 }
+
+.HomeBtnLeft{
+  margin: auto;
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.HomeBtnRight{
+  margin: auto;
+  float: right;
+  width: 25%;
+  padding: 10px;
+}

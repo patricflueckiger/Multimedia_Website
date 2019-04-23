@@ -1,13 +1,15 @@
 var slideIndex = 1;
-showDivs(slideIndex);
+showDivs("1", slideIndex);
+//showDivs("2", slideIndex);
+//showDivs("3", slideIndex);
 
-function plusDivs(n) {
- showDivs(slideIndex += n);
+function plusDivs(member ,n) {
+ showDivs(member, slideIndex += n);
 }
 
-function showDivs(n) {
+function showDivs(member, n) {
  var i;
- var x = document.getElementsByClassName("mySlides");
+ var x = document.getElementsByClassName(member + "HomeImg");
  if (n > x.length) {slideIndex = 1}
  if (n < 1) {slideIndex = x.length} ;
  for (i = 0; i < x.length; i++) {
