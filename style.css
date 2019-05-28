@@ -1,7 +1,10 @@
 .vertical-menu {
-  width: 200px;
-  outline: 2px dashed black;
-  float: left;
+  float: none;
+    background-color: #D9857E;
+    list-style-type: none;
+      margin: 0;
+  padding: 0;
+     overflow: hidden;
 }
 
 .vertical-menu a{
@@ -13,11 +16,22 @@
 }
 
 .vertical-menu a:hover{
-  color: #BF1139;
+  color: #A63B32;
 }
 
 .vertical-menu a.active{
-  background-color: #ccc;
+  background-color: #BF5A50;
+}
+
+li{
+ 
+}
+
+li a {
+  display: block;
+  padding: 8px;
+    float:left;
+    width:20%
 }
 
 .content{
@@ -25,6 +39,7 @@
   margin: auto;
   width: 60%;
   padding-top: 2vw;
+    color: black;
 }
 
 .content img{
@@ -45,3 +60,8 @@
 #liveStream{
 margin-left:70px;
 }
+
+body{
+    background-color: #D9D9D9;
+}
+
