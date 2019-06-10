@@ -1,67 +1,98 @@
 .vertical-menu {
-  float: none;
+    float: none;
     background-color: #D9857E;
     list-style-type: none;
-      margin: 0;
-  padding: 0;
-     overflow: hidden;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 40px;
+    position: fixed;
+    width: 100%;
 }
 
-.vertical-menu a{
-  font-family: 'Kodchasan', sans-serif;
-  color: black;
-  display: block;
-  padding: 12px;
-  text-decoration: none;
+.vertical-menu a {
+    font-family: 'Kodchasan', sans-serif;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    float: left;
+    width: 18%
 }
 
-.vertical-menu a:hover{
-  color: #A63B32;
+.vertical-menu a:hover {
+    color: #A63B32;
 }
 
-.vertical-menu a.active{
-  background-color: #BF5A50;
+.pair {
+    float: left;
+    margin: 20px;
+    text-align: center;
 }
 
-li{
- 
+.edit{
+    float:none;
 }
 
-li a {
-  display: block;
-  padding: 8px;
-    float:left;
-    width:20%
+.vertical-menu a.active {
+    background-color: #BF5A50;
 }
 
-.content{
-  font-family: 'Kodchasan', sans-serif;
-  margin: auto;
-  width: 60%;
-  padding-top: 2vw;
+.index-title {
+    text-align: center;
+}
+
+.total_content {
+    padding: 20px;
+}
+
+.content {
+    font-family: 'Kodchasan', sans-serif;
+    margin: auto;
+    width: 60%;
+    padding-top: 2vw;
     color: black;
 }
 
-.content img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-.text{
-  width: 50%;
-  font-size: 14px;
-  padding-top: 2vw;
-  margin: auto;
-  padding-bottom: 2vw;
+.text {
+    width: 50%;
+    font-size: 14px;
+    padding-top: 2vw;
+    margin: auto;
+    padding-bottom: 2vw;
 }
 
-#liveStream{
-margin-left:70px;
+.livestream {
+    text-align: center;
 }
 
-body{
+body {
     background-color: #D9D9D9;
+    margin: 0;
 }
 
+.footer {
+    height: 40px;
+    background-color: #D9857E;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.textFooter {
+    font-family: 'Kodchasan', sans-serif;
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 100px;
+}
